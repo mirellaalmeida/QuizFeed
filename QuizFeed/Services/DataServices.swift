@@ -20,7 +20,20 @@ class DataServices {
         imagensPergunta1(nomeDaImagem: "terninho6.png")
     ]
     
+    private let arrayP2 = [
+        imagensPergunta2(nomeDaImagem: "camisa1.png"),
+        imagensPergunta2(nomeDaImagem: "calca2.png"),
+        imagensPergunta2(nomeDaImagem: "camiseta3.png"),
+        imagensPergunta2(nomeDaImagem: "camiseta4.png"),
+        imagensPergunta2(nomeDaImagem: "jaqueta5.png"),
+        imagensPergunta2(nomeDaImagem: "terninho6.png")
+    ]
+    
     func pegarImagemP1() -> [imagensPergunta1] {
         return arrayP1
+    }
+    
+    func pegarImagemP2() -> [imagensPergunta2] {
+        return arrayP2
     }
 }

@@ -1,20 +1,21 @@
 //
-//  ImageCell.swift
+//  ImageP2Cell.swift
 //  QuizFeed
 //
-//  Created by Mirella Almeida on 31/08/20.
+//  Created by Mirella Almeida on 02/09/20.
 //  Copyright © 2020 Mirella Almeida. All rights reserved.
 //
 
 import UIKit
 
-class ImageCell: UICollectionViewCell {
-    static let reuseIdentifier = String(describing: ImageCell.self)
+class ImageP2Cell: UICollectionViewCell {
     
-    @IBOutlet weak var imagemAlternativas: UIImageView!
+    static let reuseIdentifier = String(describing: ImageP2Cell.self)
     
-    func updateViews(imagem: imagensPergunta1) {
-        imagemAlternativas.image = UIImage(named: imagem.nomeDaImagem)
+    @IBOutlet weak var imagemAlternativasP2: UIImageView!
+    
+    func updateViews(imagem: imagensPergunta2) {
+        imagemAlternativasP2.image = UIImage(named: imagem.nomeDaImagem)
     }
     
     override func layoutSubviews() {
@@ -39,9 +40,8 @@ class ImageCell: UICollectionViewCell {
     }
     
     @IBAction func escolheuAlternativa(_ sender: Any) {
-        tocouCelulaAlternativa?()
+        tocouCelulaAlternativaP2?()
     }
     
-    var tocouCelulaAlternativa : (()->())?
+    var tocouCelulaAlternativaP2: (()->())?
 }
-

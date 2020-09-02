@@ -20,6 +20,7 @@
 		EDC8C6DD250001780050675C /* Resultado.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC8C6DC250001780050675C /* Resultado.swift */; };
 		EDC8C6DF250003D30050675C /* ImagensPergunta2.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC8C6DE250003D30050675C /* ImagensPergunta2.swift */; };
 		EDC8C6E1250003E20050675C /* ImagensPergunta3.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC8C6E0250003E20050675C /* ImagensPergunta3.swift */; };
+		EDC8C6E32500487F0050675C /* ImageP2Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC8C6E22500487F0050675C /* ImageP2Cell.swift */; };
 		EDFE037C24FD3363009FADCF /* ImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDFE037B24FD3363009FADCF /* ImageCell.swift */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +40,7 @@
 		EDC8C6DC250001780050675C /* Resultado.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resultado.swift; sourceTree = "<group>"; };
 		EDC8C6DE250003D30050675C /* ImagensPergunta2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagensPergunta2.swift; sourceTree = "<group>"; };
 		EDC8C6E0250003E20050675C /* ImagensPergunta3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagensPergunta3.swift; sourceTree = "<group>"; };
+		EDC8C6E22500487F0050675C /* ImageP2Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageP2Cell.swift; sourceTree = "<group>"; };
 		EDFE037B24FD3363009FADCF /* ImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -67,6 +69,7 @@
 			isa = PBXGroup;
 			children = (
 				EDFE037B24FD3363009FADCF /* ImageCell.swift */,
+				EDC8C6E22500487F0050675C /* ImageP2Cell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -195,6 +198,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EDC8C6DD250001780050675C /* Resultado.swift in Sources */,
+				EDC8C6E32500487F0050675C /* ImageP2Cell.swift in Sources */,
 				ED590A9224FD404200B23DCE /* ImagensPergunta1.swift in Sources */,
 				EDC8C6DB250001620050675C /* PerguntaTres.swift in Sources */,
 				EDAF9E9624FD2D5200FF5B57 /* ViewController.swift in Sources */,

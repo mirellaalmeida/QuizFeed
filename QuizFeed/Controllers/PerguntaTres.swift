@@ -7,3 +7,13 @@
 //
 
 import Foundation
+import UIKit
+
+class PerguntaTres: UIViewController {
+    
+    enum Section {
+        case main
+    }
+    
+    static let reuseIdentifier = String(describing: PerguntaTres.self)
+}

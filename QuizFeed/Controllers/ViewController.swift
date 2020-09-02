@@ -48,10 +48,13 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
             let imagemP1 = DataServices.instance.pegarImagemP1()[indexPath.row]
             cell.updateViews(imagem: imagemP1)
             
+            cell.tocouCelulaAlternativa = {
+                   // implement your logic here, e.g. call preformSegue()
+                   self.performSegue(withIdentifier: "PerguntaDois", sender: self)
+               }
             return cell
         }
         return UICollectionViewCell()
     }
     
 }
-

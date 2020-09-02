@@ -7,3 +7,12 @@
 //
 
 import Foundation
+
+struct imagensPergunta2 {
+    
+    private(set) public var nomeDaImagem: String
+    
+    init(nomeDaImagem: String) {
+        self.nomeDaImagem = nomeDaImagem
+    }
+}
