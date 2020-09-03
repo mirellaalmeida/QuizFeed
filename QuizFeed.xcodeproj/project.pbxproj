@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		ED590A9224FD404200B23DCE /* ImagensPergunta1.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED590A9124FD404200B23DCE /* ImagensPergunta1.swift */; };
 		ED590A9824FD430500B23DCE /* DataServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED590A9724FD430500B23DCE /* DataServices.swift */; };
+		ED7029FC25012B9B001D23B4 /* AnimeAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7029FB25012B9B001D23B4 /* AnimeAPI.swift */; };
 		EDAF9E9224FD2D5200FF5B57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDAF9E9124FD2D5200FF5B57 /* AppDelegate.swift */; };
 		EDAF9E9424FD2D5200FF5B57 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDAF9E9324FD2D5200FF5B57 /* SceneDelegate.swift */; };
 		EDAF9E9624FD2D5200FF5B57 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDAF9E9524FD2D5200FF5B57 /* ViewController.swift */; };
@@ -21,12 +22,14 @@
 		EDC8C6DF250003D30050675C /* ImagensPergunta2.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC8C6DE250003D30050675C /* ImagensPergunta2.swift */; };
 		EDC8C6E1250003E20050675C /* ImagensPergunta3.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC8C6E0250003E20050675C /* ImagensPergunta3.swift */; };
 		EDC8C6E32500487F0050675C /* ImageP2Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC8C6E22500487F0050675C /* ImageP2Cell.swift */; };
+		EDC8C6E525010F4C0050675C /* ImageP3Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC8C6E425010F4C0050675C /* ImageP3Cell.swift */; };
 		EDFE037C24FD3363009FADCF /* ImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDFE037B24FD3363009FADCF /* ImageCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		ED590A9124FD404200B23DCE /* ImagensPergunta1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagensPergunta1.swift; sourceTree = "<group>"; };
 		ED590A9724FD430500B23DCE /* DataServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataServices.swift; sourceTree = "<group>"; };
+		ED7029FB25012B9B001D23B4 /* AnimeAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeAPI.swift; sourceTree = "<group>"; };
 		EDAF9E8E24FD2D5200FF5B57 /* QuizFeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuizFeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDAF9E9124FD2D5200FF5B57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EDAF9E9324FD2D5200FF5B57 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -41,6 +44,7 @@
 		EDC8C6DE250003D30050675C /* ImagensPergunta2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagensPergunta2.swift; sourceTree = "<group>"; };
 		EDC8C6E0250003E20050675C /* ImagensPergunta3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagensPergunta3.swift; sourceTree = "<group>"; };
 		EDC8C6E22500487F0050675C /* ImageP2Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageP2Cell.swift; sourceTree = "<group>"; };
+		EDC8C6E425010F4C0050675C /* ImageP3Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageP3Cell.swift; sourceTree = "<group>"; };
 		EDFE037B24FD3363009FADCF /* ImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -61,6 +65,7 @@
 				ED590A9124FD404200B23DCE /* ImagensPergunta1.swift */,
 				EDC8C6DE250003D30050675C /* ImagensPergunta2.swift */,
 				EDC8C6E0250003E20050675C /* ImagensPergunta3.swift */,
+				ED7029FB25012B9B001D23B4 /* AnimeAPI.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -70,6 +75,7 @@
 			children = (
 				EDFE037B24FD3363009FADCF /* ImageCell.swift */,
 				EDC8C6E22500487F0050675C /* ImageP2Cell.swift */,
+				EDC8C6E425010F4C0050675C /* ImageP3Cell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -200,6 +206,7 @@
 				EDC8C6DD250001780050675C /* Resultado.swift in Sources */,
 				EDC8C6E32500487F0050675C /* ImageP2Cell.swift in Sources */,
 				ED590A9224FD404200B23DCE /* ImagensPergunta1.swift in Sources */,
+				EDC8C6E525010F4C0050675C /* ImageP3Cell.swift in Sources */,
 				EDC8C6DB250001620050675C /* PerguntaTres.swift in Sources */,
 				EDAF9E9624FD2D5200FF5B57 /* ViewController.swift in Sources */,
 				EDFE037C24FD3363009FADCF /* ImageCell.swift in Sources */,
@@ -207,6 +214,7 @@
 				ED590A9824FD430500B23DCE /* DataServices.swift in Sources */,
 				EDC8C6D9250001520050675C /* PerguntaDois.swift in Sources */,
 				EDAF9E9224FD2D5200FF5B57 /* AppDelegate.swift in Sources */,
+				ED7029FC25012B9B001D23B4 /* AnimeAPI.swift in Sources */,
 				EDAF9E9424FD2D5200FF5B57 /* SceneDelegate.swift in Sources */,
 				EDC8C6DF250003D30050675C /* ImagensPergunta2.swift in Sources */,
 			);

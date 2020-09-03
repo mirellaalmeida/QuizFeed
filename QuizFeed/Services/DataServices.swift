@@ -29,6 +29,15 @@ class DataServices {
         imagensPergunta2(nomeDaImagem: "terninho6.png")
     ]
     
+    private let arrayP3 = [
+        imagensPergunta3(nomeDaImagem: "camisa1.png"),
+        imagensPergunta3(nomeDaImagem: "calca2.png"),
+        imagensPergunta3(nomeDaImagem: "camiseta3.png"),
+        imagensPergunta3(nomeDaImagem: "camiseta4.png"),
+        imagensPergunta3(nomeDaImagem: "jaqueta5.png"),
+        imagensPergunta3(nomeDaImagem: "terninho6.png")
+    ]
+    
     func pegarImagemP1() -> [imagensPergunta1] {
         return arrayP1
     }
@@ -36,4 +45,17 @@ class DataServices {
     func pegarImagemP2() -> [imagensPergunta2] {
         return arrayP2
     }
+    
+    func pegarImagemP3() -> [imagensPergunta3] {
+        return arrayP3
+    }
+    
+    func gerarAnimeID() -> Int {
+           
+           let randomAnimeID = Int.random(in: 1...99)
+
+           print(randomAnimeID)
+           return randomAnimeID
+       }
+    
 }
